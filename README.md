@@ -1,7 +1,6 @@
 # ui_profile
-
 A new Flutter project.
-
+<img src="https://github.com/Michellehwang001/ui_profile/blob/flutter/assets/shot.png" width="200">
 ## Getting Started
 
 This project is a starting point for a Flutter application.
