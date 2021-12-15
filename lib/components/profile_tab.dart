@@ -1,3 +1,4 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 
 class ProfileTab extends StatefulWidget {
@@ -48,7 +49,11 @@ class _ProfileTabState extends State<ProfileTab>
             crossAxisSpacing: 10, crossAxisCount: 3, mainAxisSpacing: 10),
         itemCount: 42,
         itemBuilder: (context, index) {
+          // return Image(image: CachedNetworkImageProvider('https://picsum.photos/id/${index+1}/200/200'));
           return Image.network('https://picsum.photos/id/${index+1}/200/200');
+          // return CachedNetworkImage(
+          //   imageUrl: 'https://picsum.photos/id/${index + 1}/200/200',
+          // );
         },
       ),
       Container(
