@@ -33,7 +33,7 @@ class ProfilePage extends StatelessWidget {
       endDrawer: const ProfileDrawer(),
       appBar: _buildProfileAppBar(),
       body: Column(
-        children: [
+        children: const [
           SizedBox(
             height: 20,
           ),
